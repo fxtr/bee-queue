@@ -8,9 +8,11 @@ on:
   # if the need to run jobs on other branches emerges, then the release job will need a better
   # condition expression.
   push:
-    branches: master
+    branches:
+      - master
   pull_request:
-    branches: master
+    branches:
+      - master
 
 jobs:
   test:
